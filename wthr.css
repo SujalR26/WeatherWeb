@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("Weatherbg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+.navbar{
+    background-color: #706e96;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2rem;
+    backdrop-filter: blur(10px);
+}
+.logo{
+    padding: 1rem;
+}
+.nav-cont{
+    padding: 1rem;
+}
+.nav-cont a{
+    margin-left: 2rem;
+}
+.nav-cont a:hover{
+    text-decoration: underline;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem 0 0.6rem 0.5rem;
+    background-color: rgb(255, 255, 255,0.2);
+    width: 20%;
+}
+.search-icon{
+    background-color: rgb(255, 255, 255,0.2);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 60%;
+    border: none;
+    cursor: pointer;
+}
+.nav-icons{
+   align-self: center;
+   margin-left: 30rem;
+}   
+.icn{
+    margin-left: 1rem;
+}
+.main-msg{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 450;
+}
+
+.all-info{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    text-transform: capitalize;
+}
+.info{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    height: 13rem;
+    width: 16rem;
+    border: 1px solid black;
+   border-radius: 2rem;
+   /* color: rgb(255, 255, 255); */
+}
+.curr{
+    font-size: 2rem;
+    /* color: black; */
+    font-weight: 400;
+}
+.temp{    
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;   
+}
+.humid{
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    /* color: black;    */
+}
+.text-icon{
+    display: flex;
+    align-items: center;
+}
+.text-info{
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;  
+}
+.feel-like{
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* color: black;  */
+}
+.wind-speed{
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: black;
+}
+.wind-deg{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* color: black;  */
+}
+.visibility{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* color: black;  */
+}
+b{
+    color: black;
+    font-weight: 500;
+}
+.pressure{
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* color: black; */
+}
+.sunrise{
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.sunset{
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWeb</title>
+    <link rel="icon" href="wthr.css">
+    <link rel="stylesheet" href="wthr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="iconweather.jpeg">
+</head>
+<body>
+    <div class="navbar">
+            <div class="logo">
+            <h2><i class="fa-solid fa-cloud-sun"></i>WeatherWeb</h2>
+        </div><div class="nav-cont">
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            
+        </div>
+        <div class="nav-icons">
+            <i class="fa-solid fa-earth-asia icn"></i>
+            <span>IND</span>
+            <i class="fa-solid fa-bars icn"></i>
+            </div>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Enter City" class="search" >
+        <button class="search-icon"><i class="fa-solid fa-magnifying-glass "></i></button>
+    </div>
+    <h1 class="main-msg">Showing Weather for Jabalpur</h1>
+    <div class="all-info">
+        <div class="time info">
+            <p class="curr"> Humidity  </p><b class="humid"></b>
+            <p class="pressure"> Pressure is <b class="pr"></b> mbar</p>
+            <p class="sunrise">Sunrise at <b class="sr"></b></p>
+            <p  class="sunset">Sunset at <b class="ss"></b></p>
+        </div>
+        <div class="Temp info">
+            <p class="curr">Temperature</p>
+            <p class="temp"></p>
+                <img src="" class="text-icon">
+                <p class="text-info">Partly Cloudy</p>           
+            <p class="feel-like"> Feels Like <b class="feel"> </b></p>
+        </div>
+        <div class="wind info">
+            <p class="curr">Wind Speed</p>
+            <p class="wind-speed"></p>
+            <p class="wind-deg">Wind Degree <b class="deg"></b></p>
+            <p class="visibility">Visibility <b class="visible"></b></p>
+        </div>
+
+    </div>
+    <script src="wther.js"></script>
+</body>
+</html>
