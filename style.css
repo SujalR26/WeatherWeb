@@ -96,7 +96,7 @@ input{
     margin-top: 0.5rem;
     font-size: 2.5rem;
     font-weight: 600;
-    color: black;   
+/*     color: black;    */
 }
 .humid{
     margin-top: 0.5rem;
@@ -112,7 +112,7 @@ input{
     margin-top: 0.8rem;
     font-size: 1.5rem;
     font-weight: 500;
-    color: black;  
+/*     color: black;   */
 }
 .feel-like{
     margin-top: 0.3rem;
@@ -124,7 +124,7 @@ input{
     margin-top: 0.5rem;
     font-size: 2.5rem;
     font-weight: 500;
-    color: black;
+/*     color: black; */
 }
 .wind-deg{
     margin-top: 0.5rem;
@@ -146,7 +146,7 @@ b{
     margin-top: 0.3rem;
     font-size: 1.5rem;
     font-weight: 400;
-    /* color: black; */
+/*     color: black; */
 }
 .sunrise{
     margin-top: 0.3rem;
